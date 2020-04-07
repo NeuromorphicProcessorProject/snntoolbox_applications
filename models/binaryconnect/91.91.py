@@ -27,7 +27,7 @@ from __future__ import print_function
 import lasagne
 import theano
 
-from scripts.ann_architectures.BinaryConnect import binary_connect
+from . import binary_connect
 
 
 def build_network():
